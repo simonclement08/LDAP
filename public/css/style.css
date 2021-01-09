@@ -1,0 +1,19 @@
+.image{
+    height: 30px;
+    width: auto;
+}
+.image_button{
+  border: 0px;
+  background-color: transparent;
+}
+.image_button:focus{
+    outline:none;
+}
+.ldapinput{
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+.ldapinput:focus{
+  outline:none;
+}

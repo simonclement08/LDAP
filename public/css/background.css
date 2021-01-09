@@ -1,0 +1,23 @@
+#background {
+	z-index:-100;
+	
+	height:100%;
+	
+	background-image: linear-gradient(to right top, #000066, #9933ff);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.border-div {
+	border:2px solid #fff;
+	border-radius:20px;
+}
+
+.color{
+	color:#ccffff;
+}
+
+button:focus {
+	outline:none;
+}

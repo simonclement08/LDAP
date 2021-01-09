@@ -1,0 +1,64 @@
+dn: uid=19fhng,ou=b,ou=STUDENTS,dc=ldap,dc=egnom,dc=pro
+changetype: add
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Hgjgjjg FHNG
+sn: FHNG
+givenName: Hgjgjjg
+mail: jygjgyj@tgfjygj.tfht
+mobile: 0105040708
+uid: 19fhng
+userPassword: yfgucyjtyfijhui_o
+
+dn: uid=19huart,ou=b,ou=STUDENTS,dc=ldap,dc=egnom,dc=pro
+changetype: add
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Loic HUART
+sn: HUART
+givenName: Loic
+mail: loic.huart@hrthd.tr
+mobile: 0345789621
+uid: 19huart
+userPassword: azerty1198f
+
+dn: uid=19frigo,ou=b,ou=STUDENTS,dc=ldap,dc=egnom,dc=pro
+changetype: add
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Adrien FRIGO
+sn: FRIGO
+givenName: Adrien
+mail: ertgtr@hthdr.fr
+mobile: 0205040708
+uid: 19frigo
+userPassword: azertyyuiiopmlkhgff
+
+dn: uid=19simon,ou=b,ou=STUDENTS,dc=ldap,dc=egnom,dc=pro
+changetype: add
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Clã©ment SIMON
+sn: SIMON
+givenName: Clã©ment
+mail: clementdu008@hotmail.com
+uid: 19simon
+userPassword: {SSHA}g78DusabonSDwRaGqqk18idP/w0zZDVmZmRiMw==
+
+dn: cn=b,ou=b,ou=STUDENTS,dc=ldap,dc=egnom,dc=pro
+objectClass: top
+objectClass: groupOfNames
+cn: b
+member: uid=fhng19,ou=b,ou=STUDENTS,dc=ldap,dc=egnom,dc=pro
+member: uid=huart19,ou=b,ou=STUDENTS,dc=ldap,dc=egnom,dc=pro
+member: uid=frigo19,ou=b,ou=STUDENTS,dc=ldap,dc=egnom,dc=pro
+member: uid=simon19,ou=b,ou=STUDENTS,dc=ldap,dc=egnom,dc=pro
+
